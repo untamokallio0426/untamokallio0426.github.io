@@ -42,6 +42,7 @@ const ModalProjectCard = () => {
         </div>
 
         <div className={s.cardFooter}>
+        {!!links.site && (
           <Button
             style={{ width: '12rem' }}
             className="primary"
@@ -50,6 +51,7 @@ const ModalProjectCard = () => {
           >
             <BiLinkExternal /> &nbsp; View project
           </Button>
+        )}
 
           {!!links.repo && (
             <Button

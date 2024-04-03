@@ -1,192 +1,271 @@
+import { SERVER_URL } from "../config";
+
 const data = [
   {
     id: '1',
-    title: 'Syntho',
+    title: 'Credit Application',
     description:
-      'Syntho is an electronic music education application. Connect with like minded users as you build your own custom profile, communicate and share music via the newsfeed.',
+      'Credit application Form Validation',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1671564532/portfolio/projects/Syntho/Screenshot_2022-12-20_at_21.26.17_1_c59hzo.jpg',
+      src: SERVER_URL + '/credit-application.jpg',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://apps.apple.com/us/app/syntho/id1615419392',
+      repo: 'https://github.com/untamokallio0426/credit-application-jsforce',
     },
     technologies: [
       '#typescript',
-      '#react-native',
-      '#react-native-web',
-      '#mobx-state-tree',
-      '#expo',
-      '#i18next',
-      '#react-navigation',
-      '#sentry',
+      '#Node.js',
+      '#Express',
+      '#Angular 12',
+      '#JSforce',
     ],
   },
   {
     id: '2',
-    title: 'Minfin - Currency Rates',
+    title: 'Rabid Reality',
     description:
-      'Minfin Currency - application with all necessary information about currency: from currency rates - to the nearest places where you can exchange currency in your city.',
+      'Non-profit streaming video on demand service that offers a variety of content',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1671563302/portfolio/projects/minfin/Screenshot_2022-12-20_at_21.06.43_vl5h6k.jpg',
+      src: SERVER_URL + '/rabid-reality.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://apps.apple.com/us/app/minfin-currency-rates/id1574863878',
+      site: 'https://rabidreality.com/',
     },
     technologies: [
-      '#typescript',
-      '#react-native',
-      '#mobx-keystone',
-      '#i18next',
-      '#firebase-analytics',
-      '#google-maps',
+      '#TypeScript',
+      '#Node.js',
+      '#NestJS',
+      '#PostgreSQL',
+      '#Prisma',
+      '#GraphQL',
+      '#React',
+      '#Next.js',
+      '#SCSS',
     ],
   },
   {
     id: '3',
-    title: 'Outfitr',
+    title: 'LiveScoreBet',
     description:
-      'A react native app with animations made with react-native-reanimated. The app is based on the Outfitr - Fashion UI Kit.',
+      'Online betting website that offers live betting and online sports odds',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1671562261/portfolio/projects/fashion/Screenshot_2022-12-20_at_20.45.27_peyqly.jpg',
+      src: SERVER_URL + '/livescorebet.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://expo.dev/@v_snaichuk/rn-fashion?serviceType=classic&distribution=expo-go',
-      repo: 'https://github.com/vsnaichuk/fashion-app',
+      site: 'https://www.livescorebet.com/uk/',
     },
     technologies: [
-      '#typescript',
-      '#react-native',
-      '#expo',
-      '#react-native-reanimated',
-      '#react-navigation',
+      '#PHP',
+      '#JavaScript',
+      '#Laravel 9',
+      '#React',
+      '#Bootstrap',
+      '#Payment Gateway',
+      '#API Integration',
     ],
   },
   {
     id: '4',
-    title: 'Apiko Marketplace',
+    title: 'Slot Game',
     description:
-      'An online marketplace made with React. The project was developed on 8th Apiko Intensive.',
+      'A simple slot machine game with three reels',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348072/portfolio/projects/react-marketplace/apiko-marketplace-lg_xppe9n.jpg',
+      src: SERVER_URL + '/slot-game.jpg',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://apiko-marketplace-app-snaichuk.herokuapp.com/',
-      repo: 'https://github.com/vsnaichuk/apiko-marketplace-app-snaichuk',
+      repo: 'https://github.com/untamokallio0426/slot-game-sample',
     },
     technologies: [
-      '#react',
-      '#redux',
-      '#socket.io',
-      '#scss',
-      '#formik',
-      '#react-window',
-      '#restapi',
+      '#Javascript',
+      '#Node.js',
     ],
   },
   {
     id: '5',
-    title: 'Places App',
+    title: 'Billfox',
     description:
-      'A MERN app to let users share their experience of places along with Details. It is user friendly and can be useful to many others.',
+      'The clever billing software for osteopathic alternative practitioners',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348070/portfolio/projects/mern-places/mern-places-lg_xf6zom.jpg',
+      src: SERVER_URL + '/billfox.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://yourplaces-sv.netlify.app/',
-      repo: 'https://github.com/vsnaichuk/MERN-places',
+      site: 'https://billfox.de/',
     },
     technologies: [
-      '#react',
-      '#nodejs',
-      '#express',
-      '#mongodb',
-      '#react-query',
-      '#react-transition-group',
-      '#mongoose',
-      '#jwt',
-      '#aws',
+      '#PHP',
+      '#JavaScript',
+      '#Laravel 8',
+      '#Vue 2',
+      '#Vuetify 2',
     ],
   },
   {
     id: '6',
-    title: 'eCommerce Mobile App',
+    title: 'Chat App',
     description:
-      'A Mobile eCommerce application built with React Native that includes cart functionality, push notifications, user authentication and user orders',
+      'Socket.io realtime web chat app',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/rn-shop/rn-shop-lg_fofglf.jpg',
+      src: SERVER_URL + '/chat-app.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://expo.dev/@v_snaichuk/online-shop-app',
-      repo: 'https://github.com/vsnaichuk/RN-shop',
+      repo: 'https://github.com/untamokallio0426/socket-chat-app',
     },
     technologies: [
-      '#react-native',
-      'expo',
-      '#redux',
-      '#redux-toolkit',
-      '#react-navigation',
-      '#nodejs',
-      '#express',
-      '#mongodb',
+      '#JavaScript',
+      '#Node.js',
+      '#Express',
+      '#MongoDB',
+      '#React',
+      '#Socket.io',
     ],
   },
   {
     id: '7',
-    title: 'Places Mobile App',
+    title: 'Hepsiburada',
     description:
-      'A Mobile application for sharing places that people visit from all over the world. Uses React Native, TypeScript, MobX and Native Device Features',
+      'One of the largest online shopping site in Turkey',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/rn-places/rn-places-lg_ljyikm.jpg',
+      src: SERVER_URL + '/hepsiburada.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://expo.dev/@v_snaichuk/rn-places',
-      repo: 'https://github.com/vsnaichuk/RN-places',
+      site: 'https://www.hepsiburada.com/',
     },
     technologies: [
-      '#react-native',
-      '#typescript',
-      '#expo',
-      '#mobx',
-      '#sqlite',
-      '#react-native-maps',
-      '#expo-location',
+      '#MERN',
+      '#Bootstrap',
+      '#Backbone.js',
+      '#Google Analytics',
+      '#Facebook API',
+      '#Youtube API',
+      '#SEO',
+      '#Nginx'
     ],
   },
   {
     id: '8',
-    title: 'Shopping Cart',
+    title: 'QETC',
     description:
-      'Simple eCommerce cart application built with React and TypeScript. Uses SWR hook to fetch the data from the API and Styled Components',
+      'The website of QETC Education and Training Consultancy SDN',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/react-shop-cart/rn-shop-cart-lg_w3qxn6.jpg',
+      src: SERVER_URL + '/qetc.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://shopping-cart-sv.netlify.app/',
-      repo: 'https://github.com/vsnaichuk/React-ShoppingCart',
+      site: 'https://qetc.com.my/',
     },
     technologies: [
-      '#react',
-      '#typescript',
-      '#material-ui',
-      '#styled-components',
-      '#swr',
-      '#fakestoreapi',
+      '#JavaScript',
+      '#Node.js',
+      '#Express',
+      '#MySQL',
+      '#Sequelize',
+      '#React',
+      '#Tailwind CSS',
+    ],
+  },
+  {
+    id: '9',
+    title: 'Cryptobase',
+    description:
+      'Simple Create React App',
+    image: {
+      src: SERVER_URL + '/cryptobase.png',
+      placeholderSrc:
+        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
+    },
+    links: {
+      site: 'https://cryptobase-5c326.web.app/',
+      repo: 'https://github.com/untamokallio0426/crypto-base-app',
+    },
+    technologies: [
+      '#JavaScript',
+      '#React',
+      '#Firebase',
+      '#Crypto',
+    ],
+  },
+  {
+    id: '10',
+    title: 'Web Wallet',
+    description:
+      'Cryptocurrency Wallet',
+    image: {
+      src: SERVER_URL + '/web-wallet.png',
+      placeholderSrc:
+        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
+    },
+    links: {
+      site: 'https://wallet-jnmm.onrender.com',
+      repo: 'https://github.com/untamokallio0426/web-wallet',
+    },
+    technologies: [
+      '#Typescript',
+      '#Next',
+      '#Material UI',
+    ],
+  },
+  {
+    id: '11',
+    title: 'LuckyDreams',
+    description:
+      'Online casino that offers a variety of games, including online slots, table games, and live casino games',
+    image: {
+      src: SERVER_URL + '/luckydreams.png',
+      placeholderSrc:
+        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
+    },
+    links: {
+      site: 'https://www.luckydreams.com/',
+    },
+    technologies: [
+      '#JavaScript',
+      '#Node.js',
+      '#Express',
+      '#MySQL',
+      '#Sequelize',
+      '#Next.js',
+      '#Tailwind CSS',
+      '#API Integration',
+      '#Payment Gateway',
+    ],
+  },
+  {
+    id: '12',
+    title: 'USDFX Affiliate System',
+    description:
+      'The website which aims to revolutionize fintech and web3 to facilitate B2B payments',
+    image: {
+      src: SERVER_URL + '/usdfx.png',
+      placeholderSrc:
+        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
+    },
+    links: {
+      site: 'https://usdfx.org',
+    },
+    technologies: [
+      '#JavaScript',
+      '#Node.js',
+      '#Express',
+      '#MySQL',
+      '#React',
+      '#Material UI',
+      '#Blockchain',
+      '#Web3.js',
     ],
   },
 ];

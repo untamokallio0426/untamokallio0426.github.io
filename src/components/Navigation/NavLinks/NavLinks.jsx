@@ -18,12 +18,12 @@ const NavLinks = () => {
         </NavLink>
       </li>
 
-      <li>
+      {/* <li>
         <NavLink to={routes.ABOUT}>
           <AiOutlineUser />
           About
         </NavLink>
-      </li>
+      </li> */}
 
       <li>
         <NavLink to={routes.PROJECTS}>

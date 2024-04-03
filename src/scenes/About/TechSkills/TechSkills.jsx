@@ -12,6 +12,8 @@ import {
   SiRedux,
   SiSocketdotio,
   SiAmazonaws,
+  SiBlockchaindotcom,
+  SiLaravel,
 } from 'react-icons/si';
 
 const TechSkills = () => {
@@ -46,6 +48,12 @@ const TechSkills = () => {
       </li>
       <li className={s.techIcon}>
         <DiGit />
+      </li>
+      <li className={s.techIcon}>
+        <SiBlockchaindotcom />
+      </li>
+      <li className={s.techIcon}>
+        <SiLaravel  />
       </li>
     </ul>
   );

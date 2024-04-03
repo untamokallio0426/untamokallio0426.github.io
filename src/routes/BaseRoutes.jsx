@@ -10,7 +10,7 @@ const Resume = lazy(() => import('../scenes/Resume/Resume'));
 
 export const routes = {
   HOME: '/',
-  ABOUT: '/about',
+  // ABOUT: '/about',
   PROJECTS: '/projects',
   PROJECT: '/project/:id',
   RESUME: '/resume',
@@ -24,7 +24,7 @@ const BaseRoutes = () => {
     <>
       <Routes location={background || location}>
         <Route path={routes.HOME} element={<Home />} />
-        <Route path={routes.ABOUT} element={<About />} />
+        {/* <Route path={routes.ABOUT} element={<About />} /> */}
         <Route path={routes.PROJECTS} element={<Projects />} />
         <Route path={routes.PROJECT} element={<ModalProjectCard />} />
         <Route path={routes.RESUME} element={<Resume />} />
